@@ -57,6 +57,10 @@ section#content {
 	line-height: 1.8;
 }
 
+.citation {
+	color: black;
+}
+
 footer.page-footer {
 	color: darkslategray; 
 	background: darkgray;
