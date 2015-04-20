@@ -1,6 +1,68 @@
 /* This is where styles are defined for your page. */
 /* One style is provided as example. */
+body{
+	background-position: bottom right;
+	background-repeat: repeat-x;
+	background-color: silver;
+	font-family: serif;
+	color: darkorchid;
+}
 
-h1 {
-    color: green;
+h1, h2, h3, h4, h5, h6 {
+	font-family: sans-serif;
+}
+.page-header h1 {
+	margin-bottom: 0;
+	color: black;
+}
+
+.page-header p {
+	margin-top:0;
+	color: black;
+}
+
+.page-header {
+	background-image: url('images/Xanadu_on_Map_of_Asia.JPG');
+	padding: 1rem;
+}
+
+.page-header small {
+	font-size: medium;
+	color: black;
+}
+
+aside.more-info {
+	/* background: lightgoldenrodyellow;	*/
+}
+
+aside.more-info img {
+	width: 150px;
+	height: auto;
+}
+
+aside.more-info {
+	color: black;
+}
+
+section#content {
+	/* background: lightgray; */
+}
+
+.poem {
+	list-style-type: none;
+}
+
+.poem li {
+	font-size: large;
+	line-height: 1.8;
+}
+
+footer.page-footer {
+	color: darkslategray; 
+	background: darkgray;
+}
+
+.page-credits {
+	margin-left: 23rem;
+	color: black;
 }
